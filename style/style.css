@@ -1,0 +1,18 @@
+header{
+  background-image: -moz-linear-gradient(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7HjKOnUsDuQUcDEDohLo90Cnd1V4avcydrw&usqp=CAU);
+  }
+  h1{
+    text-align: center;
+  
+  }
+  a{
+    text-decoration: none;
+  
+  }
+  nav ul li {
+    border: 1px solid rgb(5, 5, 5);
+    width: 300px;
+    padding:  5px;
+    display: inline-block;
+  
+  }
