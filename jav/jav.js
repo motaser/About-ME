@@ -1,5 +1,5 @@
 'use strict';
-let user =' to My site';
+/*let user =' to My site';
 let name = prompt ('Hello... What is Your name  ?');
 alert ('Welcome '+ name+ user);
 alert (name+'.. you will be asked five Qusetions, Answer by Yes or No PLZ.')
@@ -19,13 +19,13 @@ break;
 
     case 'no' :
         alert("your answer is not correct" );
-        console.log('Not correct ');
+        console.log('incorrect');
   
      break;
 
      case 'n' :
         alert("your answer is not correct");
-        console.log('Not correct ');
+        console.log('incorrect ');
         break;
 
 
@@ -49,13 +49,13 @@ break;
 
     case 'yes' :
         alert("your answer is not correct" );
-        console.log('Not correct ');
+        console.log('incorrect ');
   
      break;
 
      case 'y' :
         alert("your answer is not correct");
-        console.log('Not correct ');
+        console.log('incorrect');
         break;
 
 
@@ -82,13 +82,13 @@ break;
 
     case 'no' :
         alert("your answer is not correct" );
-        console.log('Not correct ');
+        console.log('incorrect ');
   
      break;
 
      case 'n' :
         alert("your answer is not correct");
-        console.log('Not correct ');
+        console.log('incorrect ');
         break;
 
 
@@ -115,13 +115,13 @@ break;
 
     case 'yes' :
         alert("your answer is not correct" );
-        console.log('Not correct ');
+        console.log('incorrect ');
   
      break;
 
      case 'y' :
         alert("your answer is not correct");
-        console.log('Not correct ');
+        console.log('incorrect ');
         break;
 
 
@@ -147,13 +147,13 @@ break;
 
     case 'yes' :
         alert("your answer is not correct" );
-        console.log('Not correct ');
+        console.log('incorrect ');
   
      break;
 
      case 'y' :
         alert("your answer is not correct");
-        console.log('Not correct ');
+        console.log(' incorrect ');
         break;
 
 
@@ -164,6 +164,39 @@ break;
 
 
 
+}*/
+
+
+
+/*for(let i=1; i<=4 ; i++){
+
+    let num1 = prompt('what is the frequency of Jordan electricity? you have four opportunities');
+
+    if(num <= 59)
+    alert('your answer is  low !!' );
+
+     else if (num == 60){
+    alert ('your answer is correct ');
+    break;
 }
+    else
+     alert('your answer is high !!');
 
 
+}
+*/
+let arr = ['voltage','current','power','resistance'];
+
+for(let i=1; i<=6 ; i++){
+
+    let num2 = prompt(' the main concept in the electrical field ..? you have six opportunities,,');
+
+    if(num2 == arr[0] || num2== arr[1] || num2==arr[2] ||num2 == arr[3]){
+    alert ('you answer is correct ');
+    break;
+    }
+    else
+    alert('your answer is incorrect !!')
+
+
+}
