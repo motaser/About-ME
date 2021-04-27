@@ -1,5 +1,5 @@
 'use strict';
-/*let user =' to My site';
+let user =' to My site';
 let name = prompt ('Hello... What is Your name  ?');
 alert ('Welcome '+ name+ user);
 alert (name+'.. you will be asked five Qusetions, Answer by Yes or No PLZ.')
@@ -164,11 +164,11 @@ break;
 
 
 
-}*/
+}
 
 
 
-/*for(let i=1; i<=4 ; i++){
+for(let i=1; i<=4 ; i++){
 
     let num1 = prompt('what is the frequency of Jordan electricity? you have four opportunities');
 
@@ -184,7 +184,7 @@ break;
 
 
 }
-*/
+
 let arr = ['voltage','current','power','resistance'];
 
 for(let i=1; i<=6 ; i++){
