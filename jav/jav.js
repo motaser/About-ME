@@ -10,23 +10,23 @@ function Qusetion1 (Qu1)
     switch (Qu1) {
     case 'yes' :
       alert("your answer is correct" );
-      console.log('correct ');
+  
  break;
 
  case 'y' :
     alert("your answer is correct" );
-    console.log('correct ');
+  
 break;
 
     case 'no' :
         alert("your answer is not correct" );
-        console.log('incorrect');
+    
   
      break;
 
      case 'n' :
         alert("your answer is not correct");
-        console.log('incorrect ');
+      
         break;
 
 
@@ -43,17 +43,17 @@ function Qusetion2 (Qu2){
     switch (Qu2) {
         case 'no' :
           alert("your answer is correct" );
-          console.log('correct ');
+     
      break;
     
      case 'n' :
         alert("your answer is correct" );
-        console.log('correct ');
+      
     break;
     
         case 'yes' :
             alert("your answer is not correct" );
-            console.log('incorrect ');
+         
       
          break;
     
@@ -66,8 +66,7 @@ function Qusetion2 (Qu2){
             default:
                 alert("plz answer by yes or no ");
                 break;
-                
-    
+                 
     
     
     }
@@ -79,23 +78,23 @@ function Qusetion3(Qu3){
     switch (Qu3) {
         case 'yes' :
           alert("your answer is correct" );
-          console.log('correct ');
+        
      break;
     
      case 'y' :
         alert("your answer is correct" );
-        console.log('correct ');
+ 
     break;
     
         case 'no' :
             alert("your answer is not correct" );
-            console.log('incorrect ');
+        
       
          break;
     
          case 'n' :
             alert("your answer is not correct");
-            console.log('incorrect ');
+           
             break;
     
     
@@ -115,23 +114,23 @@ function Qusetion4 (Qu4){
     switch (Qu4) {
         case 'no' :
           alert("your answer is correct" );
-          console.log('correct ');
+       
      break;
     
      case 'n' :
         alert("your answer is correct" );
-        console.log('correct ');
+  
     break;
     
         case 'yes' :
             alert("your answer is not correct" );
-            console.log('incorrect ');
+      
       
          break;
     
          case 'y' :
             alert("your answer is not correct");
-            console.log('incorrect ');
+       
             break;
     
     
@@ -150,23 +149,23 @@ let ask5 = prompt('The Power is mesuerd by Volt ?  y/n or yes/no').toLowerCase()
     switch (Qu5) {
         case 'no' :
           alert("your answer is correct" );
-          console.log('correct ');
+      
      break;
     
      case 'n' :
         alert("your answer is correct" );
-        console.log('correct ');
+ 
     break;
     
         case 'yes' :
             alert("your answer is not correct" );
-            console.log('incorrect ');
+           
       
          break;
     
          case 'y' :
             alert("your answer is not correct");
-            console.log(' incorrect ');
+     
             break;
     
     
@@ -213,7 +212,7 @@ function Qusetion7 ( q7)
     for(let i=1; i<=6 ; i++){
 
         let num2 = prompt(' the main concept in the electrical field ..? you have six opportunities,,');
-        if(q7 == num2[0] || q7== num2[1] || q7==num2[2] ||q7 == num2[3]){
+        if(num2 == arr[0] || num2== arr[1] || num2==arr[2] ||num2 == arr[3]){
             alert ('you answer is correct ');
             break;
             }
